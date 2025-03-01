@@ -2,14 +2,14 @@
 # 📂 Danh sách file kiểm thử
 
 - **`README.MD`**: Bài báo cáo toàn bộ nội dung của quá trình kiểm thử.
-- **`Quản Lý Test Case.xlsx`**: [Trang tính] dùng để quản lý các ca kiểm thử.
-- **`Test case - Function.pdf`**: [Sheet Function] của file **Quản Lý Test Case.xlsx** được xuất ra dạng PDF để dễ đọc hơn.  
-- **`Test case - UI.pdf`**: [Sheet UI] của file **Quản Lý Test Case.xlsx** được xuất ra dạng PDF để dễ đọc hơn.  
-- **`Test case - Performance.pdf`**: [Sheet Performance] của file **Quản Lý Test Case.xlsx** được xuất ra dạng PDF để dễ đọc hơn.  
+- **`Quản Lý Test Case.xlsx`**: [Trang tính](https://github.com/Quetzalcot/WebTest/blob/main/Quản%20Lý%20Test%20Case.xlsx) dùng để quản lý các ca kiểm thử.
+- **`Test case - Function.pdf`**: [Sheet Function](https://github.com/Quetzalcot/WebTest/blob/main/Test%20case%20-%20Function.pdf) của file **Quản Lý Test Case.xlsx** được xuất ra dạng PDF để dễ đọc hơn.  
+- **`Test case - UI.pdf`**: [Sheet UI](https://github.com/Quetzalcot/WebTest/blob/main/Test%20case%20-%20UI.pdf) của file **Quản Lý Test Case.xlsx** được xuất ra dạng PDF để dễ đọc hơn.  
+- **`Test case - Performance.pdf`**: [Sheet Performance](https://github.com/Quetzalcot/WebTest/blob/main/Test%20case%20-%20Performance.pdf) của file **Quản Lý Test Case.xlsx** được xuất ra dạng PDF để dễ đọc hơn.  
 - **Video minh họa**: Xem video minh họa một số ca kiểm thử trong file **Quản Lý Test Case.xlsx** tại [đây](https://youtu.be/8H83n4a972w).  
-- **`ipm.jmx`**: [Kịch bản kiểm thử] dạng file script của **Apache JMeter**.  
-- **`keywords.csv`** & **`p_number.csv`**: Dữ liệu dùng để kiểm thử ([từ khóa] và [số trang] trong **Apache JMeter**.  
-- **`IPM.side`**: [Kịch bản kiểm thử] dạng file script của **Selenium IDE**.  
+- **`ipm.jmx`**: [Kịch bản kiểm thử](https://github.com/Quetzalcot/WebTest/blob/main/ipm.jmx) dạng file script của **Apache JMeter**.  
+- **`keywords.csv`** & **`p_number.csv`**: Dữ liệu dùng để kiểm thử ([từ khóa](https://github.com/Quetzalcot/WebTest/blob/main/keywords.csv) và [số trang](https://github.com/Quetzalcot/WebTest/blob/main/p_number.csv)) trong **Apache JMeter**.  
+- **`IPM.side`**: [Kịch bản kiểm thử](https://github.com/Quetzalcot/WebTest/blob/main/IPM.side) dạng file script của **Selenium IDE**.  
 
 > **⚠ Lưu ý:**  
 > Nếu thời điểm chạy file **`IPM.side`** không nằm trong khoảng **19-22/12/2024**, hãy xóa dòng lệnh (dùng để tắt pop-up khuyến mãi) sau trong mỗi test case kiểm thử chức năng để file kiểm thử có thể chạy bình thường:  
