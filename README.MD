@@ -12,7 +12,7 @@
 - **`IPM.side`**: [Kịch bản kiểm thử](https://github.com/Quetzalcot/WebTest/blob/main/IPM.side) dạng file script của **Selenium IDE**.  
 
 > **⚠ Lưu ý:**  
-> Nếu thời điểm chạy file **`IPM.side`** không nằm trong khoảng **19-22/12/2024**, hãy xóa dòng lệnh (dùng để tắt pop-up khuyến mãi) sau trong mỗi test case kiểm thử chức năng để file kiểm thử có thể chạy bình thường:  
+> Nếu thời điểm chạy file **`IPM.side`** không nằm trong khoảng **19-22/12/2024**, sau khi mở file bằng **Selenium IDE** hãy xóa dòng lệnh dưới đây (dùng để tắt pop-up khuyến mãi) trong mỗi test case kiểm thử chức năng để file kiểm thử có thể chạy bình thường:  
 >  
 > ```plaintext
 > click: xpath=//*[@id="popup-contact"]/div/div/div/button
