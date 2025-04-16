@@ -361,60 +361,60 @@ JMeter là một công cụ kiểm thử hiệu năng mã nguồn mở, được
 
 ## 3.2.7. Thiết kế các ca kiểm thử
 
-Sau khi phân tích các yêu cầu chức năng và phi chức năng, ta tiến hành thiết kế các ca kiểm thử.
+Sau khi phân tích các yêu cầu chức năng và phi chức năng, ta tiến hành thiết kế các kịch bản kiểm thử.
 
 ### Tìm kiếm sản phẩm
-- **SE001** Tìm kiếm chính xác: Nhập tên sản phẩm chính xác vào thanh tìm kiếm và nhận kết quả phù hợp.
-- **SE002** Tìm kiếm từ khóa không liên quan: Nhập từ khóa không liên quan đến bất kỳ sản phẩm nào trên website và nhận thông báo "Không tìm thấy kết quả."
-- **SE003** Tìm kiếm từ khóa không đầy đủ: Nhập từ khóa tìm kiếm không chính xác hoàn toàn (chứa từ khóa liên quan) và hệ thống gợi ý các sản phẩm có liên quan.
-- **SE004** Lọc sản phẩm theo danh mục: Sử dụng bộ lọc theo danh mục trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database.
-- **SE005** Chức năng sắp xếp sản phẩm theo tên: Sử dụng chức năng sắp xếp sản phẩm theo tên từ A-Z và từ Z-A trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database.
-- **SE006** Chức năng sắp xếp sản phẩm theo giá: Sử dụng chức năng sắp xếp sản phẩm theo giá tăng dần và giảm dần trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database.
-- **SE007** Chức năng sắp xếp sản phẩm theo thời gian ra mắt: Sử dụng chức năng sắp xếp sản phẩm theo mới nhất và muộn nhất trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database.
-- **SE008** Chức năng sắp xếp sản phẩm theo sản phẩm nổi bật: Sử dụng chức năng sắp xếp sản phẩm theo sản phẩm nổi bật trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database.
-- **SE009** Chức năng sắp xếp sản phẩm theo độ bán chạy: Sử dụng chức năng sắp xếp sản phẩm theo sản phẩm bán chạy nhất trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database.
+- **SE001** Tìm kiếm chính xác: Nhập tên sản phẩm chính xác vào thanh tìm kiếm và nhận kết quả phù hợp (2 test case).
+- **SE002** Tìm kiếm từ khóa không liên quan: Nhập từ khóa không liên quan đến bất kỳ sản phẩm nào trên website và nhận thông báo "Không tìm thấy kết quả" (2 test case).
+- **SE003** Tìm kiếm từ khóa không đầy đủ: Nhập từ khóa tìm kiếm không chính xác hoàn toàn (chứa từ khóa liên quan) và hệ thống gợi ý các sản phẩm có liên quan (2 test case).
+- **SE004** Lọc sản phẩm theo danh mục: Sử dụng bộ lọc theo danh mục trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database (1 test case).
+- **SE005** Chức năng sắp xếp sản phẩm theo tên: Sử dụng chức năng sắp xếp sản phẩm theo tên từ A-Z và từ Z-A trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database (2 test case).
+- **SE006** Chức năng sắp xếp sản phẩm theo giá: Sử dụng chức năng sắp xếp sản phẩm theo giá tăng dần và giảm dần trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database (2 test case).
+- **SE007** Chức năng sắp xếp sản phẩm theo thời gian ra mắt: Sử dụng chức năng sắp xếp sản phẩm theo mới nhất và muộn nhất trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database (2 test case).
+- **SE008** Chức năng sắp xếp sản phẩm theo sản phẩm nổi bật: Sử dụng chức năng sắp xếp sản phẩm theo sản phẩm nổi bật trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database (1 test case).
+- **SE009** Chức năng sắp xếp sản phẩm theo độ bán chạy: Sử dụng chức năng sắp xếp sản phẩm theo sản phẩm bán chạy nhất trong trang “Tất cả sản phẩm” và so sánh danh sách sản phẩm xuất hiện với database (1 test case).
 
 ### Xem chi tiết sản phẩm
-- **DE001** Xem chi tiết sản phẩm: Chọn một sản phẩm bất kỳ để vào xem trang chi tiết sản phẩm.
-- **DE002** Chọn tùy chọn: Chọn các tùy chọn phiên bản (bản thường, bản đặc biệt, bản sưu tầm) của sản phẩm và xác nhận giá, thông tin sản phẩm, sau đó so sánh với dữ liệu trong database đảm bảo hiển thị chính xác.
-- **DE003** Để lại bình luận sản phẩm: Bình luận một sản phẩm và xem bình luận xuất hiện.
-- **DE004** Xem các bình luận theo thứ tự thời gian: Sử dụng chức năng sắp xếp thời gian.
+- **DE001** Xem chi tiết sản phẩm: Chọn một sản phẩm bất kỳ để vào xem trang chi tiết sản phẩm (2 test case).
+- **DE002** Chọn tùy chọn: Chọn các tùy chọn phiên bản (bản thường, bản đặc biệt, bản sưu tầm) của sản phẩm và xác nhận giá, thông tin sản phẩm, sau đó so sánh với dữ liệu trong database đảm bảo hiển thị chính xác (1 test case).
+- **DE003** Để lại bình luận sản phẩm: Bình luận một sản phẩm và xem bình luận xuất hiện (1 test case).
+- **DE004** Xem các bình luận theo thứ tự thời gian: Sử dụng chức năng sắp xếp thời gian (1 test case).
 
 ### Giỏ hàng
-- **CA001** Thêm sản phẩm từ trang chủ vào giỏ hàng.
-- **CA002** Thêm sản phẩm từ trang “Tất cả sản phẩm” vào giỏ hàng.
-- **CA003** Thêm sản phẩm còn hàng từ trang “Chi tiết sản phẩm” vào giỏ hàng.
-- **CA004** Thêm sản phẩm hết hàng từ trang chủ vào giỏ hàng.
-- **CA005** Thêm sản phẩm hết hàng từ trang “Tất cả sản phẩm” vào giỏ hàng.
-- **CA006** Thêm sản phẩm hết hàng từ trang “Chi tiết sản phẩm” vào giỏ hàng.
-- **CA007** Thay đổi số lượng sản phẩm trong giỏ hàng sau đó cập nhật.
-- **CA008** Thay đổi số lượng sản phẩm trong giỏ hàng sau đó thanh toán.
-- **CA009** Xóa sản phẩm trong giỏ hàng.
+- **CA001** Thêm sản phẩm từ trang chủ vào giỏ hàng (4 test case).
+- **CA002** Thêm sản phẩm từ trang “Tất cả sản phẩm” vào giỏ hàng (4 test case).
+- **CA003** Thêm sản phẩm còn hàng từ trang “Chi tiết sản phẩm” vào giỏ hàng (3 test case).
+- **CA004** Thêm sản phẩm hết hàng từ trang chủ vào giỏ hàng (2 test case).
+- **CA005** Thêm sản phẩm hết hàng từ trang “Tất cả sản phẩm” vào giỏ hàng (2 test case).
+- **CA006** Thêm sản phẩm hết hàng từ trang “Chi tiết sản phẩm” vào giỏ hàng (1 test case).
+- **CA007** Thay đổi số lượng sản phẩm trong giỏ hàng sau đó cập nhật (4 test case).
+- **CA008** Thay đổi số lượng sản phẩm trong giỏ hàng sau đó thanh toán (4 test case).
+- **CA009** Xóa sản phẩm trong giỏ hàng (3 test case).
 
 ### Tài khoản người dùng
-- **AC001** Đăng ký tài khoản với các thông tin bỏ trống.
-- **AC002** Đăng ký tài khoản với email hợp lệ.
-- **AC003** Đăng ký tài khoản với thông tin không hợp lệ.
-- **AC004** Đăng nhập tài khoản đúng tài khoản và mật khẩu.
-- **AC005** Đăng nhập tài khoản sai tài khoản/mật khẩu.
-- **AC006** Chức năng quên mật khẩu.
+- **AC001** Đăng ký tài khoản với các thông tin bỏ trống (4 test case).
+- **AC002** Đăng ký tài khoản với email hợp lệ (1 test case). 
+- **AC003** Đăng ký tài khoản với thông tin không hợp lệ (7 test case).
+- **AC004** Đăng nhập tài khoản đúng tài khoản và mật khẩu (3 test case).
+- **AC005** Đăng nhập tài khoản sai tài khoản/mật khẩu (2 test case).
+- **AC006** Chức năng quên mật khẩu (1 test case).
 
 ### Đặt hàng và thanh toán
-- **OR001** Đặt hàng khi chưa đăng nhập: Khi vào trang thanh toán sẽ phải nhập toàn bộ thông tin đặt hàng.
-- **OR002** Đặt hàng khi đã đăng nhập: Khi vào trang thanh toán nếu trước đó tài khoản này đã từng đặt hàng thì thông tin đặt hàng sẽ được tự động điền sẵn.
+- **OR001** Đặt hàng khi chưa đăng nhập: Khi vào trang thanh toán sẽ phải nhập toàn bộ thông tin đặt hàng (2 test case).
+- **OR002** Đặt hàng khi đã đăng nhập: Khi vào trang thanh toán nếu trước đó tài khoản này đã từng đặt hàng thì thông tin đặt hàng sẽ được tự động điền sẵn (2 test case).
 
 ### Giao diện người dùng (UI)
-- **UI001** Trang chủ.
-- **UI002** Trang tất cả sản phẩm.
-- **UI003** Trang tin tức.
-- **UI004** Trang về IPM.
-- **UI005** Trang liên hệ.
-- **UI006** Footer.
+- **UI001** Trang chủ (9 test case).
+- **UI002** Trang tất cả sản phẩm (8 test case).
+- **UI003** Trang tin tức (6 test case).
+- **UI004** Trang về IPM (3 test case).
+- **UI005** Trang liên hệ (7 test case).
+- **UI006** Footer (4 test case).
 
 ### Hiệu năng
-- **PE001** Kiểm tra tốc độ tải trang chủ khi truy cập ipm.vn.
-- **PE002** Kiểm tra tốc độ phản hồi sau khi tìm kiếm với từ khóa.
-- **PE003** Kiểm tra tốc độ phản hồi khi duyệt các trang danh sách sản phẩm.
+- **PE001** Kiểm tra tốc độ tải trang chủ khi truy cập ipm.vn (6 test case).
+- **PE002** Kiểm tra tốc độ phản hồi sau khi tìm kiếm với từ khóa (6 test case).
+- **PE003** Kiểm tra tốc độ phản hồi khi duyệt các trang danh sách sản phẩm (6 test case).
 
 ### Khả năng tương thích
 Thực hiện tất cả ca kiểm thử ở trên với các trình duyệt khác nhau (Chrome, Firefox, Edge), trên các máy tính có hệ điều hành khác nhau (Windows, Linux), và trên các thiết bị di động (Android, iOS).
