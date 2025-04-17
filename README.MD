@@ -423,7 +423,7 @@ Thực hiện tất cả ca kiểm thử ở trên với các trình duyệt kh�
 Chuẩn bị môi trường kiểm thử như đã liệt kê ở phần lập kế hoạch kiểm thử.
 
 ## 3.2.9. Thực hiện kiểm thử
-Chi tiết các ca kiểm thử được trình bày trong file `Quản Lý Test Case.xlsx` hoặc sử dụng các file `Test case – Function.pdf`để xem các ca kiểm thử chức năng, file `Test case – UI.pdf` để xem các ca kiểm thử giao diện, file `Test case – Performance.pdf` để xem các ca kiểm thử hiệu năng.
+Chi tiết các ca kiểm thử được trình bày trong file [Quản Lý Test Case.xlsx](https://github.com/Quetzalcot/WebTest/blob/main/Quản%20Lý%20Test%20Case.xlsx) hoặc sử dụng các file [Test case – Function.pdf](https://github.com/Quetzalcot/WebTest/blob/main/Test%20case%20-%20Function.pdf) để xem các ca kiểm thử chức năng, file [Test case – UI.pdf](https://github.com/Quetzalcot/WebTest/blob/main/Test%20case%20-%20UI.pdf) để xem các ca kiểm thử giao diện, file [Test case – Performance.pdf](https://github.com/Quetzalcot/WebTest/blob/main/Test%20case%20-%20Performance.pdf) để xem các ca kiểm thử hiệu năng.
 
 Video minh họa các ca kiểm thử đã được đính kèm với bài báo cáo này khi gửi hoặc truy cập vào đường dẫn sau: [MINH HỌA THỰC HIỆN CÁC CA KIỂM THỬ PHẦM MỀM TRÊN WEBSITE](https://youtu.be/8H83n4a972w) để xem.
 
